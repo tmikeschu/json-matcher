@@ -181,6 +181,7 @@ describe("patty", () => {
           }
         ])
       ) {
+        // actual api/BL happens here
         return {
           ...obj,
           ...withResponseKey("slots_present")
@@ -195,6 +196,7 @@ describe("patty", () => {
           }
         ])
       ) {
+        // actual api/BL happens here
         return {
           ...obj,
           ...withResponseKey("no_slots")
