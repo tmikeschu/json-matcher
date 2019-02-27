@@ -1,12 +1,12 @@
 {
-  "name": "json-matcher",
+  "name": "patty",
   "version": "1.0.0",
-  "description": "",
+  "description": "pattern matcher utility for json objects",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
-  "author": "",
+  "author": "tmikeschu",
   "license": "ISC",
   "devDependencies": {
     "eslint": "^5.14.1",
@@ -14,5 +14,8 @@
     "eslint-plugin-prettier": "^3.0.1",
     "jest": "^24.1.0",
     "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "ramda": "^0.26.1"
   }
 }
